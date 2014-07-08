@@ -77,14 +77,32 @@ describe 'Money' do
     it "should print 5 Rupees and 50 Paise for Rs 5 , 50 ps" do
       money1 = Money.new(5, 50)
       expect(money1.to_s).to eq("5 Rupees and 50 Paise")
-      puts money1
+
     end
 
     it "should print 1 Rupee and 1 Paisa for Rs 1 , 1 ps" do
       money1 = Money.new(1, 1)
       expect(money1.to_s).to eq("1 Rupee and 1 Paisa")
-      puts money1
 
+
+    end
+
+    it "sort money" do
+      money1= Money.new(1, 0)
+      money2= Money.new(3, 3)
+      money3= Money.new(2, 8)
+      money4= Money.new(7, 6)
+      money5= Money.new(4, 5)
+      sorted_money=[money1, money2, money3, money4, money5].sort
+      expected_money = [money1, money3, money2, money5, money4]
+      expect(sorted_money).to eql(expected_money)
+      puts sorted_money
+    end
+  end
+  context "conversion" do
+    it 'should convert to paise' do
+      money1=Money.new(3, 5)
+      expect(money1.convert_to_paise).to eq(305)
     end
   end
 end

@@ -8,6 +8,10 @@ class Money
 
   end
 
+  def <=>(amount)
+    self.convert_to_paise <=> amount.convert_to_paise
+  end
+
   def == amount
 
     if (self.equal? amount)
@@ -71,4 +75,7 @@ class Money
     "#{@rupees} #{string_rupee} and #{@paisa} #{string_paisa}"
   end
 
+  def convert_to_paise
+    @rupees * 100 + @paisa
+  end
 end
