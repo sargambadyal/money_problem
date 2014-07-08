@@ -1,5 +1,6 @@
 #Addition and subtraction of money value
 class Money
+  include Comparable
   attr_reader :rupees, :paisa
 
   def initialize rupees, paisa
@@ -11,6 +12,7 @@ class Money
   def <=>(amount)
     self.convert_to_paise <=> amount.convert_to_paise
   end
+
 
   def == amount
 

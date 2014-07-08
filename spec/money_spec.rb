@@ -88,16 +88,30 @@ describe 'Money' do
     end
 
     it "sort money" do
-      money1= Money.new(1, 0)
-      money2= Money.new(3, 3)
-      money3= Money.new(2, 8)
-      money4= Money.new(7, 6)
-      money5= Money.new(4, 5)
-      sorted_money=[money1, money2, money3, money4, money5].sort
+      money1 = Money.new(1, 0)
+      money2 = Money.new(3, 3)
+      money3 = Money.new(2, 8)
+      money4 = Money.new(7, 6)
+      money5 = Money.new(4, 5)
+      sorted_money = [money1, money2, money3, money4, money5].sort
       expected_money = [money1, money3, money2, money5, money4]
       expect(sorted_money).to eql(expected_money)
-      puts sorted_money
+
     end
+    context "money comparison" do
+      it "true for (2 rupee and 50 paisa) greater than (1 rupee and 60 paisa)" do
+        money1 = Money.new(2, 50)
+        money2 = Money.new(1, 60)
+        expect(money1 > money2).to eq(true)
+      end
+
+      it "false for (2 rupee and 50 paisa) lesser than (3 rupee and 50 paisa)" do
+        money1 = Money.new(2, 50)
+        money2 = Money.new(3, 50)
+        expect(money1 < money2).to_not eq(false)
+      end
+    end
+
   end
   context "conversion" do
     it 'should convert to paise' do
