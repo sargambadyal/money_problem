@@ -110,6 +110,37 @@ describe 'Money' do
         money2 = Money.new(3, 50)
         expect(money1 < money2).to_not eq(false)
       end
+
+      it "true for (2 rupee and 50 paisa) lesser than (2 rupee and 50 paisa)" do
+        money1 = Money.new(2, 50)
+        expect(money1 <=> money1).to eq(0)
+      end
+
+      it "should be nil if two objects of different classes are compared " do
+        money1 = Money.new(2, 50)
+        money2 = Object.new
+        expect(money1 <=> money2).to eq(nil)
+      end
+
+      it "should be 1 if if 1st is greater " do
+        money1 = Money.new(2, 50)
+        money2 = Money.new(1, 50)
+        expect(money1 <=> money2).to eq(1)
+      end
+
+      it "should be -1 if if 1st is smaller " do
+        money1 = Money.new(1, 50)
+        money2 = Money.new(2, 50)
+        expect(money1 <=> money2).to eq(-1)
+      end
+
+      it "should be 0 if if 1st and 2nd are equal " do
+        money1 = Money.new(2, 50)
+        money2 = Money.new(2, 50)
+        expect(money1 <=> money2).to eq(0)
+      end
+
+
     end
 
   end

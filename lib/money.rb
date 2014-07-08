@@ -10,7 +10,11 @@ class Money
   end
 
   def <=>(amount)
-    self.convert_to_paise <=> amount.convert_to_paise
+    if !(self.class == amount.class)
+      nil
+    else
+      self.convert_to_paise <=> amount.convert_to_paise
+    end
   end
 
 
@@ -59,6 +63,7 @@ class Money
   def eql amount
     self == amount
   end
+
   def to_s
 
     if @rupees > 1
