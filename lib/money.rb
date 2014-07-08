@@ -17,7 +17,7 @@ class Money
       false
 
     else
-      @rupees == amount.rupees  &&  @paisa == amount.paisa
+      @rupees == amount.rupees && @paisa == amount.paisa
       true
 
     end
@@ -50,7 +50,11 @@ class Money
     Money.new(total_paisa/100, total_paisa%100)
   end
 
+  def eql amount
+    self == amount
+  end
   def to_str
+
     if @rupees > 1
       string_rupee = "Rupees"
     else
@@ -63,6 +67,7 @@ class Money
     else
       string_paisa = "Paisa"
     end
+
     "#{@rupees} #{string_rupee} and #{@paisa} #{string_paisa}"
   end
 

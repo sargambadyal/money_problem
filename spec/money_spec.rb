@@ -80,7 +80,7 @@ describe 'Money' do
     end
 
     it "should print 1 Rupee and 1 Paisa for Rs 1 , 1 ps" do
-      money1 = Money.new(1,1)
+      money1 = Money.new(1, 1)
       expect(money1.to_str).to eq("1 Rupee and 1 Paisa")
     end
   end
