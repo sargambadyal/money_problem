@@ -17,7 +17,7 @@ class Money
       false
 
     else
-      @rupees == other_value.rupees && @paisa == other_value.paisa
+      @rupees == other_value.rupees  &&  @paisa == other_value.paisa
       true
 
     end
@@ -48,6 +48,10 @@ class Money
             100 +
             second_value.paisa)
     Money.new(total_paisa/100, total_paisa%100)
+  end
+
+  def representation
+    "#{@rupees} Rupees and #{@paisa} Paise"
   end
 
 end
