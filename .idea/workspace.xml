@@ -15,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/money_problem@Run_spec__money_spec___money_problem.coverage" NAME="Run spec 'money_spec': money_problem Coverage Results" MODIFIED="1404796789373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="money_problem" />
+    <SUITE FILE_PATH="coverage/money_problem@Run_spec__money_spec___money_problem.coverage" NAME="Run spec 'money_spec': money_problem Coverage Results" MODIFIED="1404797254048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="money_problem" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,8 +34,8 @@
           <file leaf-file-name="money_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/money_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1305">
-                  <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="1380">
+                  <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +44,8 @@
           <file leaf-file-name="money.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/money.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7032967" vertical-offset="460" max-vertical-offset="930">
-                  <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.6231884" vertical-offset="462" max-vertical-offset="1110">
+                  <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -58,8 +58,8 @@
           <file leaf-file-name="money_spec.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/money_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7032967" vertical-offset="760" max-vertical-offset="1305">
-                  <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.59351623" vertical-offset="287" max-vertical-offset="1380">
+                  <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -334,16 +334,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/money.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7032967" vertical-offset="460" max-vertical-offset="930">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.6231884" vertical-offset="462" max-vertical-offset="1110">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/money_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7032967" vertical-offset="760" max-vertical-offset="1305">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.59351623" vertical-offset="287" max-vertical-offset="1380">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>

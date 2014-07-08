@@ -8,16 +8,16 @@ class Money
 
   end
 
-  def == other_value
+  def == amount
 
-    if (self.equal? other_value)
+    if (self.equal? amount)
       true
 
-    elsif (!(self.class == other_value.class))
+    elsif (!(self.class == amount.class))
       false
 
     else
-      @rupees == other_value.rupees  &&  @paisa == other_value.paisa
+      @rupees == amount.rupees  &&  @paisa == amount.paisa
       true
 
     end
@@ -29,9 +29,9 @@ class Money
   end
 
 
-  def + second_value
-    sum_rupees = @rupees + second_value.rupees
-    sum_paisa = @paisa + second_value.paisa
+  def + amount
+    sum_rupees = @rupees + amount.rupees
+    sum_paisa = @paisa + amount.paisa
     if sum_paisa >= 100
       sum_paisa = sum_paisa - 100
       sum_rupees = sum_rupees + 1
@@ -40,18 +40,30 @@ class Money
     Money.new(sum_rupees, sum_paisa)
   end
 
-  def - second_value
+  def - amount
     total_paisa = (@rupees *
         100 +
         @paisa) -
-        (second_value.rupees *
+        (amount.rupees *
             100 +
-            second_value.paisa)
+            amount.paisa)
     Money.new(total_paisa/100, total_paisa%100)
   end
 
   def representation
-    "#{@rupees} Rupees and #{@paisa} Paise"
+    if @rupees > 1
+      string_rupee = "Rupees"
+    else
+      string_rupee = "Rupee"
+    end
+
+
+    if @paisa > 1
+      string_paisa = "Paise"
+    else
+      string_paisa = "Paisa"
+    end
+    "#{@rupees} #{string_rupee} and #{@paisa} #{string_paisa}"
   end
 
 end
