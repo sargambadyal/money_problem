@@ -53,7 +53,7 @@ class Money
   def eql amount
     self == amount
   end
-  def to_str
+  def to_s
 
     if @rupees > 1
       string_rupee = "Rupees"

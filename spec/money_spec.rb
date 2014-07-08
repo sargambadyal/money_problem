@@ -76,12 +76,15 @@ describe 'Money' do
   context "money representation" do
     it "should print 5 Rupees and 50 Paise for Rs 5 , 50 ps" do
       money1 = Money.new(5, 50)
-      expect(money1.to_str).to eq("5 Rupees and 50 Paise")
+      expect(money1.to_s).to eq("5 Rupees and 50 Paise")
+      puts money1
     end
 
     it "should print 1 Rupee and 1 Paisa for Rs 1 , 1 ps" do
       money1 = Money.new(1, 1)
-      expect(money1.to_str).to eq("1 Rupee and 1 Paisa")
+      expect(money1.to_s).to eq("1 Rupee and 1 Paisa")
+      puts money1
+
     end
   end
 end

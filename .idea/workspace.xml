@@ -15,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/money_problem@Run_spec__money_spec___money_problem.coverage" NAME="Run spec 'money_spec': money_problem Coverage Results" MODIFIED="1404797749509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="money_problem" />
+    <SUITE FILE_PATH="coverage/money_problem@Run_spec__money_spec___money_problem.coverage" NAME="Run spec 'money_spec': money_problem Coverage Results" MODIFIED="1404798874757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="money_problem" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,24 +28,24 @@
     <favorites_list name="money_problem" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.39444444">
       <split-first>
         <leaf>
           <file leaf-file-name="money_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/money_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="1380">
-                  <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="970" max-vertical-offset="1425">
+                  <caret line="89" column="3" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="money.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="money.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/money.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49275362" vertical-offset="591" max-vertical-offset="1185">
-                  <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.7381546" vertical-offset="784" max-vertical-offset="1185">
+                  <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -55,11 +55,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="money_spec.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="money_spec.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/money_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.21446384" vertical-offset="214" max-vertical-offset="1380">
-                  <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.5511222" vertical-offset="964" max-vertical-offset="1425">
+                  <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/money_spec.rb" />
         <option value="$PROJECT_DIR$/lib/money.rb" />
+        <option value="$PROJECT_DIR$/spec/money_spec.rb" />
       </list>
     </option>
   </component>
@@ -332,18 +332,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/money_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/money.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="1380">
-          <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.7381546" vertical-offset="784" max-vertical-offset="1185">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/money.rb">
+    <entry file="file://$PROJECT_DIR$/spec/money_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49275362" vertical-offset="591" max-vertical-offset="1185">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.5511222" vertical-offset="964" max-vertical-offset="1425">
+          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
           <folding />
         </state>
       </provider>
