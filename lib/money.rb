@@ -50,7 +50,7 @@ class Money
     Money.new(total_paisa/100, total_paisa%100)
   end
 
-  def representation
+  def to_str
     if @rupees > 1
       string_rupee = "Rupees"
     else
